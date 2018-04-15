@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Curso de Programação para iniciante Esse curso foi desenvolvido para pessoas iniciantes em programação que buscam desenvolver habilidades de programação web. Acredite em você, venha aprender escrever sua primeira linha de código conosco. Conteúdo do nosso Curso: link de inscrição: (http://desprograme.com.br/pt/desprograme-academy/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Nosso site:
+[Desprograme-organization](http://desprograme.com.br/)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Nosso repositório do github:
+[Desprograme](https://github.com/Desprograme/)
