@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Conteúdo</title>
+
+  <!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link href="css/style.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"> 
+
+
+
+<style>
+     img{ margin: auto; }
+     header { padding: 30px 30px; }
+     .container-fluid{ padding: 0px; }
+     li a { color: #333; }
+
+     .h20{ height:20%; }
+
+     .h10{ height:10%; }
+     .h8{ height:8%; }
+
+</style>
+
+</head>
+
+<body>  
+
+ <div class="container-fluid" style="background-color: #e2e2e2;" >
+<header class="img-responsive" >
+      <img class="img-responsive " src="images/logo.png" alt="">
+    </header>
+
+<!--          <div class="col-md-6 col-md-offset-4 ">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#html">Teste pratico</a></li>
+      </ul>
+    </div> -->
+
+ </div>
+  <div class="container">
+    <div class=" text-center col-md-6 col-md-offset-3">
+      <h2>Venha fazer parte dessa aventura</h2>
+      <hr>
+   </div>
+
+    <div class="tab-content">
+
+      <div id="html" class="tab-pane fade in active">
+
+       <section id="dhtml">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 wow fadeInRight">
+             <ul class="nav nav-tabs">
+              <li class="active"><a href="#html01">Etapa 2</a></li>
+         
+            </ul>
+
+            <div class="tab-content">
+              <div id="html01" class="tab-pane fade in active">
+                <h3> Aperte o [play] e conquiste essa aventura</h3>
+                <img src="images/provaf.jpg" class="img-responsive" />                
+              </div>
+           </div>
+         </div><!--/.col-sm-6-->
+
+         <div class="col-sm-6  fadeInDown">
+          <div class="accordion">
+
+             <div class="panel-group" id="accordion1">
+              <div class="panel panel-default">
+                <div class="panel-heading active">
+                  <h3 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#cp1">
+                                  Faça o Download do nosso material
+                                  <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                              </h3>
+                </div>
+
+                <div id="cp1" class="panel-collapse collapse in">
+                  <div class="panel-body">
+
+                    <div class="media">
+                      <div class="media-left media-middle">
+                        <a href="doc/html-aula-1-semana-1.pdf" target="_blank">
+                          <img class="media-object img-responsive h20" src="images/html-tags.png" alt="...">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">Aula 1</h4>
+                         
+                        <a href="doc/materias-das-aulas.zip" download target="_blank" > <i class="fa fa-download" aria-hidden="true"></i>  Download</a>
+
+                        <a href="https://github.com/Desprograme/curso-hello.world/issues/20"  target="_blank"><i class="fa fa-github" aria-hidden="true"></i> link para postar no Github </a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div><!--/#accordion1-->
+
+      </div> <!--/col-sm-6-->
+    </div><!--/.row-->
+   </div> <!--/.container-->
+  </section>
+  <!--/#about-->
+
+</div>
+
+
+</div><!--/.container-->
+</section> <!--/#about-->
+  </div> <!-- id="css"  -->
+
+
+    </div><!--/#accordion1-->
+  </div><!--/.col-sm-6-->
+
+</div><!--/.row-->
+
+</div> <!--/.container-->
+
+</section> <!--/#about-->
+
+
+</div> <!-- id="atividades1" -->
+
+</div> <!--  <div class="tab-content"> -->
+</div>  <!-- <div class="container"> -->
+
+
+
+
+
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+
+      </div>
+    </div>
+  </footer>
+  <!--/#footer-->
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8HeI8o-c1NppZA-92oYlXakhDPYR7XMY"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+      });
+      $('.nav-tabs a').on('shown.bs.tab', function(event){
+    var x = $(event.target).text();         // active tab
+    var y = $(event.relatedTarget).text();  // previous tab
+     });
+  });
+
+ </script>
+</body>
+
+</html>
